@@ -66,12 +66,12 @@ The Vantage6 infrastructure has been modified to accomodate and will be installe
 #### Node Setup 
 At this point, we are ready to setup a new node. At the terminal type ```vnode new``` and follow the instructions. For setting the node, you will require specfic information from the server admin. The node software needs the **server url** and a **api_key** to authenticate with the server. 
 
-<img src="https://gitlab.com/UM-CDS/argos-infrastructure/-/blob/main/Media/configuration.JPG" >
+<img src="https://gitlab.com/UM-CDS/argos-infrastructure/-/blob/main/Media/configuration.JPG">
 
 
 On successful completion, a configuration file will be created. This configuration file holds the key information necessary for all further communication between the node and the server. 
 
-![](./Media/configuration.JPG =300x250)
+![](./Media/configuration.JPG )
 
 To start the node type at the terminal 
 
