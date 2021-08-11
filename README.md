@@ -64,7 +64,7 @@ The Vantage6 infrastructure has been modified to accomodate and will be installe
 
 
 #### Node Setup 
-At this point, we are ready to setup a new node. At the terminal type ```vnode new``` and follow the instructions. For setting the node, you will require specfic information from the server admin. The node software needs the **server url** with which it will communicate. The node requires a **api_key** to authenticate with the server. 
+At this point, we are ready to setup a new node. At the terminal type ```vnode new``` and follow the instructions. For setting the node, you will require specfic information from the server admin. The node software needs the **server url** and a **api_key** to authenticate with the server. 
 
 /// screenshot
 
