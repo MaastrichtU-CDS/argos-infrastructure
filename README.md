@@ -67,7 +67,7 @@ The Vantage6 infrastructure has been modified to accomodate and will be installe
 At this point, we are ready to setup a new node. At the terminal type ```vnode new``` and follow the instructions. For setting the node, you will require specfic information from the server admin. The node software needs the **server url** and a **api_key** to authenticate with the server. 
 <img src="./Media/cli.JPG" width = 70% heigth=70%>
 
-On successful completion, a configuration file will be created. This configuration file holds the key information necessary for all further communication between the node and the server. 
+On successful completion, a configuration file(.yaml) will be created. This configuration file holds the key information necessary for all further communication between the node and the server. 
 
 <img src="./Media/configuration.JPG" width = 70% heigth=70%>
 
