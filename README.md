@@ -70,7 +70,7 @@ At this point, we are ready to setup a new node. At the terminal type ```vnode n
 
 On successful completion, a configuration file will be created. This configuration file holds the key information necessary for all further communication between the node and the server. 
 
-![](./media/Configuration.png)
+![](./media/Configuration.jpg)
 
 To start the node type at the terminal 
 
