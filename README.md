@@ -6,7 +6,6 @@ For detailed understanding of the Vantage6 Infrastructure please refer to the do
 
 This repostitory provides instructions and scripts for installing the pre-requisites and setting up the infrastructure 
 
-
 <img src="./Media/ARGOSINfra.jpg" width = 70% heigth=70% align="center">
 
 
@@ -31,10 +30,13 @@ Alternately, you can use the shell script provided to install python.
 N.B. The shell scripts work for Ubuntu distributions. For CentOS and Redhat distributions, please replace with suitable commands. 
 
 
-## ARGOS Infrastructure 
+
+## ARGOS Infrastructure Setup
+
 The ARGOS Vantage6 Infrastructure setup consists of three components - a cental server, a aggregation node (also known as the master node) and multiple data nodes. As part of the consortium, the partners are required to install and setup only the Vantage6 Node Software. Our partner provider [Medical Data Works](https://www.medicaldataworks.com/) hosts the central [server](https://mdw-vantage6-argos.azurewebsites.net/apidocs/) and the aggregation node. 
 
 ### Install Python Virtual environment 
+
 Installing python virtual environment is recommended but not mandatory. The below code installs, creates and activates the virtual enviroment named Vantage6
 
  ```
@@ -42,9 +44,6 @@ Installing python virtual environment is recommended but not mandatory. The belo
     python3 -m venv vantage6
     source vantage6/bin/activate
 ``` 
-
-//// Insert ScreenShot
-
 
 ### Install other dependencies 
 Install python pip3 and check version
@@ -56,7 +55,6 @@ pip3 --version
 ```
 
 ### Install and Setup Infrastructure
-
 #### Node Software Installation 
 The Vantage6 infrastructure has been modified to accomodate and will be installed withing the virtual enviroment Vantage6. 
 
@@ -65,7 +63,6 @@ The Vantage6 infrastructure has been modified to accomodate and will be installe
 
 
 #### Node Setup 
-
 At this point, we are ready to setup a new node. At the terminal type ```vnode new``` and follow the instructions. For setting the node, you will require specfic information from the server admin. The node software needs the **server url** and a **api_key** to authenticate with the server [Please contact over email for obtaining the api_key]
 
 
@@ -74,7 +71,6 @@ At this point, we are ready to setup a new node. At the terminal type ```vnode n
 On successful completion, a configuration file(.yaml) will be created. This configuration file holds the key information necessary for all further communication between the node and the server. 
 
 #### Additional environment variables in the configuration file
-
 Add the following environment variables in the configuration file by using the vi command
 - public_ip : keep the value blank
 - api_forwarder_port  : the default port value is 5555 
