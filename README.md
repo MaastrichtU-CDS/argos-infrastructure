@@ -12,10 +12,13 @@ This repostitory provides instructions and scripts for installing the pre-requis
 
 ## Prerequisites 
 
-### Ubuntu 16.04 or any suitable Linux Distribution 
-### Docker 
+### Ubuntu 18.04 or any suitable Linux Distribution 
+The partners are requested to install Ubuntu 18.04 or any higher version. Other Linux based distributions like CentOS and RedHat will work as well. 
+
+### Docker
+Installing Docker is one of the pre-requisites for running a federated learning process using the infrastructure. You can follow the instructions for installing Docker [here] (https://docs.docker.com/engine/install/ubuntu/). Alternately, you can run the shell script provided.   
 ### Python 3.6+ 
 
 
 ## ARGOS Infrastructure 
-The ARGOS Vantage6 Infrastructure setup consists of three components - a cental server, a aggregation node (also known as the master node) and multiple data nodes. As part of the consortium, the partners are required to install and setup only the Vantage6 Node Software. Our partner provider [Medical Data Works](https://www.medicaldataworks.com/) hosts a [server](https://mdw-vantage6-argos.azurewebsites.net/apidocs/) 
+The ARGOS Vantage6 Infrastructure setup consists of three components - a cental server, a aggregation node (also known as the master node) and multiple data nodes. As part of the consortium, the partners are required to install and setup only the Vantage6 Node Software. Our partner provider [Medical Data Works](https://www.medicaldataworks.com/) hosts the central [server](https://mdw-vantage6-argos.azurewebsites.net/apidocs/) and the aggregation node. 
