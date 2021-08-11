@@ -69,6 +69,14 @@ At this point, we are ready to setup a new node. At the terminal type ```vnode n
 
 On successful completion, a configuration file(.yaml) will be created. This configuration file holds the key information necessary for all further communication between the node and the server. 
 
+#### Additional environment variables in the configuration file
+
+Add the following environment variables in the configuration file
+- public_ip
+- api_forwarder_port  
+
+```` 
+
 <img src="./Media/configuration.JPG" width = 70% heigth=70%>
 
 To start the node type at the terminal 
