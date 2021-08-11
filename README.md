@@ -59,6 +59,6 @@ pip3 --version
 #### Installation 
 The Vantage6 infrastructure will be installed withing the virtual enviroment Vantage6. 
 
-``` pip install vantage6```
+``` pip3 install vantage6```  or ``` pip3 install -r requirements.txt```
 #### Node Setup 
 #### Node Testing 
