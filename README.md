@@ -9,3 +9,9 @@ This repostitory provides instructions and scripts for installing the pre-requis
 
 ///Vantage6 Schematic Diagram///
 
+
+## Prerequisites 
+
+### Ubuntu 16.04 or any suitable Linux Distribution 
+### Docker 
+### Python 3.6+ 
