@@ -7,7 +7,7 @@ For detailed understanding of the Vantage6 Infrastructure please refer to the do
 This repostitory provides instructions and scripts for installing the pre-requisites and setting up the infrastructure 
 
 
-<img src="./Media/ARGOSINfra.jpg" width = 70% heigth=70% class=centre>
+<img src="./Media/ARGOSINfra.jpg" width = 70% heigth=70% align="centre">
 
 
 ## Prerequisites 
