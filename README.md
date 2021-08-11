@@ -29,3 +29,10 @@ N.B. The shell scripts work for Ubuntu distributions. For CentOS and Redhat dist
 
 ## ARGOS Infrastructure 
 The ARGOS Vantage6 Infrastructure setup consists of three components - a cental server, a aggregation node (also known as the master node) and multiple data nodes. As part of the consortium, the partners are required to install and setup only the Vantage6 Node Software. Our partner provider [Medical Data Works](https://www.medicaldataworks.com/) hosts the central [server](https://mdw-vantage6-argos.azurewebsites.net/apidocs/) and the aggregation node. 
+
+### Install Python Virtual environment 
+Installing python virtual environment is recommended but not mandatory. 
+
+### Install other dependencies 
+
+### Install and Setup Infrastructure
