@@ -66,10 +66,16 @@ The Vantage6 infrastructure has been modified to accomodate and will be installe
 #### Node Setup 
 At this point, we are ready to setup a new node. At the terminal type ```vnode new``` and follow the instructions. For setting the node, you will require specfic information from the server admin. The node software needs the **server url** and a **api_key** to authenticate with the server. 
 
-/// screenshot
+/// screenshot of cli prompt
 
 On successful completion, a configuration file will be created. This configuration file holds the key information necessary for all further communication between the node and the server. 
 
+/// screenshot of yaml file
 
+To start the node type at the terminal 
+
+``` vnode start --port 3030 --image harbor2.vantage6.ai/infrastructure/maastro-node --attach ```
+
+/// Screenshot of node starting
 
 #### Node Testing 
