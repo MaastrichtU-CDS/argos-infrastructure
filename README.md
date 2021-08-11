@@ -15,16 +15,14 @@ This repostitory provides instructions and scripts for installing the pre-requis
 The partners are requested to install Ubuntu 18.04 or any higher version. Other Linux based distributions like CentOS and RedHat will work as well. 
 
 ### Docker Engine
-Installing Docker is one of the pre-requisites for running a federated learning process using the infrastructure. You can follow the instructions for installing Docker [here](https://docs.docker.com/engine/install/ubuntu/). Alternately, you can run the shell script provided [here](./Scripts/install_Docker.sh).   
+Installing Docker is one of the pre-requisites for running a federated learning process using the infrastructure. You can follow the instructions for installing Docker [here](https://docs.docker.com/engine/install/ubuntu/).
+Alternately, you can run the shell script provided [here](./Scripts/install_Docker.sh).   
 
-/// Insert Screenshot
 
 ### Python 3.6+
 Pythton 3.6 or higher is required for smooth running of the software. Please follow the instructions [here](https://phoenixnap.com/kb/how-to-install-python-3-ubuntu) for installing Python3.6 or any higher version. 
 
-Alternately, you can use the shell script provided to install python. 
-
-/// Insert screenshot
+Alternately, you can use the shell script provided to install python [here](./Scripts/install_python.sh). 
 
 
 N.B. The shell scripts work for Ubuntu distributions. For CentOS and Redhat distributions, please replace with suitable commands. 
@@ -46,7 +44,7 @@ Installing python virtual environment is recommended but not mandatory. The belo
 ``` 
 
 ### Install other dependencies 
-Install python pip3 and check version
+Install python pip3 and check version. You can use the shell script [here](./Scripts/install_dependencies.sh)
 
 ```
 sudo apt update
