@@ -57,5 +57,6 @@ pip3 --version
 
 ### Install and Setup Infrastructure
 #### Installation 
+The Vantage6 infrastructure will be installed withing the Virtual enviroment Vantage6. 
 #### Node Setup 
 #### Node Testing 
