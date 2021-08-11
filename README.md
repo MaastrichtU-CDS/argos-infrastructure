@@ -75,8 +75,10 @@ Add the following environment variables in the configuration file by using the v
 - public_ip : keep the value blank
 - api_forwarder_port  : the default port value is 5555 
 
-``` vnode files ````
-``` vi [/location/to/configurationFile.yaml] ```
+``` 
+vnode files
+vi [/location/to/configurationFile.yaml]
+ ```
 
 <img src="./Media/configuration.JPG" width = 70% heigth=70%>
 
