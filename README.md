@@ -33,9 +33,11 @@ The ARGOS Vantage6 Infrastructure setup consists of three components - a cental 
 ### Install Python Virtual environment 
 Installing python virtual environment is recommended but not mandatory. The below code installs, creates and activates the virtual enviroment named Vantage6
 
-- `sudo apt install python3-venv`
-- `python3 -m venv vantage6`
-- `source vantage6/bin/activate` 
+ ```
+    sudo apt install python3-venv
+    python3 -m venv vantage6
+    source vantage6/bin/activate
+``` 
 
 
 ### Install other dependencies 
