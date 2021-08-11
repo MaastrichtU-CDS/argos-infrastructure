@@ -61,4 +61,5 @@ The Vantage6 infrastructure will be installed withing the virtual enviroment Van
 
 ``` pip3 install vantage6```  or ``` pip3 install -r requirements.txt```
 #### Node Setup 
+At this point, we are ready to setup a new node. At the terminal type ```vnode new``` and follow the instructions. For setting the node, you will require information from the server admin. 
 #### Node Testing 
