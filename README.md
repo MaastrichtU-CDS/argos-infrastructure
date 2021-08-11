@@ -70,7 +70,8 @@ At this point, we are ready to setup a new node. At the terminal type ```vnode n
 
 On successful completion, a configuration file will be created. This configuration file holds the key information necessary for all further communication between the node and the server. 
 
-/// screenshot of yaml file
+Reference-style: 
+![alt text][/media/Configuration.png]
 
 To start the node type at the terminal 
 
