@@ -91,3 +91,5 @@ To start the node type at the terminal
 ``` vnode start --port 3030 --image harbor2.vantage6.ai/infrastructure/maastro-node --attach ```
 
 <img src="./Media/nodestart.JPG" width = 70% heigth=70%>
+
+The node is up for receiving tasks from the server
