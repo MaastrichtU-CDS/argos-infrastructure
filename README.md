@@ -17,7 +17,14 @@ The partners are requested to install Ubuntu 18.04 or any higher version. Other 
 
 ### Docker
 Installing Docker is one of the pre-requisites for running a federated learning process using the infrastructure. You can follow the instructions for installing Docker [here] (https://docs.docker.com/engine/install/ubuntu/). Alternately, you can run the shell script provided.   
-### Python 3.6+ 
+
+### Python 3.6+
+Pythton 3.6 or higher is required for smooth running of the software. Please follow the instructions [here] (https://phoenixnap.com/kb/how-to-install-python-3-ubuntu) for installing Python3.6 or any higher version. 
+
+Alternately, you can use the shell script provided to install python. 
+
+
+N.B. The shell scripts work for Ubuntu distributions. For CentOS and Redhat distributions, please replace with suitable commands. 
 
 
 ## ARGOS Infrastructure 
