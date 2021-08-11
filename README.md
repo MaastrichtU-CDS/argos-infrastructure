@@ -47,6 +47,13 @@ Installing python virtual environment is recommended but not mandatory. The belo
 
 
 ### Install other dependencies 
+Install python pip3 and check version
+
+```
+sudo apt update
+sudo apt install python3-pip
+pip3 --version
+```
 
 ### Install and Setup Infrastructure
 #### Installation 
