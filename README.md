@@ -56,7 +56,8 @@ pip3 --version
 ```
 
 ### Install and Setup Infrastructure
-#### Installation 
+
+#### Node Software Installation 
 The Vantage6 infrastructure has been modified to accomodate and will be installed withing the virtual enviroment Vantage6. 
 
 ``` pip3 install git+https://github.com/iknl/vantage6.git@feature/maastro-n2n-communication```  or
@@ -64,7 +65,9 @@ The Vantage6 infrastructure has been modified to accomodate and will be installe
 
 
 #### Node Setup 
-At this point, we are ready to setup a new node. At the terminal type ```vnode new``` and follow the instructions. For setting the node, you will require specfic information from the server admin. The node software needs the **server url** and a **api_key** to authenticate with the server. 
+
+At this point, we are ready to setup a new node. At the terminal type ```vnode new``` and follow the instructions. For setting the node, you will require specfic information from the server admin. The node software needs the **server url** and a **api_key** to authenticate with the server [Please contact over email for obtaining the api_key]
+
 
 <img src="./Media/cli.JPG" width = 70% heigth=70%>
 
@@ -88,5 +91,3 @@ To start the node type at the terminal
 ``` vnode start --port 3030 --image harbor2.vantage6.ai/infrastructure/maastro-node --attach ```
 
 <img src="./Media/nodestart.JPG" width = 70% heigth=70%>
-
-#### Node Testing 
