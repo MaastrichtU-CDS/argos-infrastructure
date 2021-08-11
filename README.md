@@ -15,7 +15,7 @@ This repostitory provides instructions and scripts for installing the pre-requis
 ### Ubuntu 18.04 or any suitable Linux Distribution 
 The partners are requested to install Ubuntu 18.04 or any higher version. Other Linux based distributions like CentOS and RedHat will work as well. 
 
-### Docker
+### Docker Engine
 Installing Docker is one of the pre-requisites for running a federated learning process using the infrastructure. You can follow the instructions for installing Docker [here](https://docs.docker.com/engine/install/ubuntu/). Alternately, you can run the shell script provided.   
 
 ### Python 3.6+
@@ -36,3 +36,6 @@ Installing python virtual environment is recommended but not mandatory.
 ### Install other dependencies 
 
 ### Install and Setup Infrastructure
+#### Installation 
+#### Node Setup 
+#### Node Testing 
