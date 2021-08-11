@@ -7,5 +7,5 @@ For detailed understanding of the Vantage6 Infrastructure please refer to the do
 This repostitory provides instructions and scripts for installing the pre-requisites and setting up the infrastructure 
 
 
-<Vantage6 Schematic Diagram>
+///Vantage6 Schematic Diagram///
 
