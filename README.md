@@ -59,7 +59,7 @@ The Vantage6 infrastructure has been modified to accomodate and will be installe
 ``` pip3 install git+https://github.com/iknl/vantage6.git@feature/maastro-n2n-communication```  or
 ``` pip3 install -r requirements.txt```
 
-You may come accross an error as shown in the screenshot below, type the following command ```pip3 install setuptools```
+You may come accross an error as shown in the screenshot below, type the following command         ```pip3 install --upgrade setuptools```
 <img src="./Media/setuptools.JPG" width = 70% heigth=70%>
 
 
