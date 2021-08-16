@@ -59,6 +59,10 @@ The Vantage6 infrastructure has been modified to accomodate and will be installe
 ``` pip3 install git+https://github.com/iknl/vantage6.git@feature/maastro-n2n-communication```  or
 ``` pip3 install -r requirements.txt```
 
+You may come accross an error as shown in the screenshot below, type the following command ```pip3 install setuptools```
+<img src="./Media/cli.JPG" width = 70% heigth=70%>
+
+
 
 #### Node Setup 
 At this point, we are ready to setup a new node. At the terminal type ```vnode new``` and follow the instructions. For setting the node, you will require specfic information from the server admin. The node software needs the **server url** and a **api_key** to authenticate with the server [Please contact over email for obtaining the api_key]
