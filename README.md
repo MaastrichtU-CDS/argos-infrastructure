@@ -60,7 +60,7 @@ The Vantage6 infrastructure has been modified to accomodate and will be installe
 ``` pip3 install -r requirements.txt```
 
 You may come accross an error as shown in the screenshot below, type the following command ```pip3 install setuptools```
-<img src="./setuptools/cli.JPG" width = 70% heigth=70%>
+<img src="./Media/setuptools.JPG" width = 70% heigth=70%>
 
 
 
