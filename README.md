@@ -74,8 +74,7 @@ On successful completion, a configuration file(.yaml) will be created. This conf
 
 #### Additional environment variables in the configuration file
 Add the following environment variables in the configuration file by using the vi command
-- public_ip : keep the value blank
-- api_forwarder_port  : the default port value is 5555 
+- public_ip : keep the value blank [to be replaced by actual master node public ip address]
 
 ``` 
     vnode files
