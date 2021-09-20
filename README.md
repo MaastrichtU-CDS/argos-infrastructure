@@ -83,7 +83,7 @@ Add the following environment variables in the configuration file by using the v
     vi [/location/to/configurationFile.yaml]
  ```
 
-<img src="./Media/configuration.JPG" width = 70% heigth=70%>
+<img src="./Media/config.JPG" width = 70% heigth=70%>
 
 To start the node type at the terminal 
 
