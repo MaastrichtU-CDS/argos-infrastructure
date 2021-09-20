@@ -87,7 +87,7 @@ Add the following environment variables in the configuration file by using the v
 
 To start the node type at the terminal 
 
-``` vnode start --port 3030 --image harbor2.vantage6.ai/infrastructure/maastro-node --attach ```
+``` vnode start --image harbor2.vantage6.ai/infrastructure/maastro-node --attach ```
 
 <img src="./Media/nodestart.JPG" width = 70% heigth=70%>
 
