@@ -85,10 +85,21 @@ Add the following environment variables in the configuration file by using the v
 
 <img src="./Media/config.JPG" width = 70% heigth=70%>
 
+#### Creating and uploading a public/private key
+
+A final step before the node can connect to the server is to generate a public/private key pair. To do this, run the following command:
+
+``` vnode create-private-key ```
+
+The username and password should have been provided to you beforehand.
+
+#### Starting the node
+
 To start the node type at the terminal 
 
 ``` vnode start --image harbor2.vantage6.ai/infrastructure/maastro-node --attach ```
 
 <img src="./Media/nodestart.JPG" width = 70% heigth=70%>
 
-The node is up for receiving tasks from the server
+The node is up for receiving tasks from the server.
+
