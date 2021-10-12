@@ -80,14 +80,14 @@ Add the following environment variables in the configuration file by using the v
 
 ``` 
     vnode files
-    vi [/location/to/configurationFile.yaml]
+    nano [/location/to/configurationFile.yaml]
  ```
 
 <img src="./Media/config.JPG" width = 70% heigth=70%>
 
 #### Creating and uploading a public/private key
 
-A final step before the node can connect to the server is to generate a public/private key pair. To do this, run the following command:
+A final step before the node can connect to the server is to generate a public/private key pair. To do this, run the following command (make sure to select the configuration name created in the last step):
 
 ``` vnode create-private-key ```
 
