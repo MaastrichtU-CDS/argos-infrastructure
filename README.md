@@ -59,6 +59,7 @@ The Vantage6 infrastructure has been modified to accomodate and will be installe
 ``` 
 git clone https://gitlab.com/UM-CDS/argos-infrastructure.git
 cat argos-infrastructure/requirements.txt | xargs -n 1 -L 1 pip3 install
+pip3 install vantage6==3.0.4
 ```
 
 You may come accross an error as shown in the screenshot below, type the following command         ```pip3 install --upgrade setuptools```
